@@ -41,6 +41,21 @@ line 4
 Correct Answer
 line 2
 line 4
+
+Code execution
+
+MyClass.java:5: error: unexpected type
+    System.out.println(a--+++b);//line 2
+                        ^
+  required: variable
+  found:    value
+MyClass.java:7: error: unexpected type
+    System.out.println(a+++++b);//line 4
+                        ^
+  required: variable
+  found:    value
+2 errors
+
 Solution Description
 As + operator and ++ operator have equal precedence.
 Similarly - and -- have equal precedence.
