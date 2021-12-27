@@ -257,4 +257,22 @@ If for x fails but "||" for y passes so, incide if prints then x =11 and y = 21
 
 
 -------------------------------------------------------------------------------------------------------------------
-<11> 
+<11> Correct Output
+Send Feedback
+Select the correct output for the following code:
+public static void main (String[] args) {
+    int a=5;
+    a+=5+(++a)+(a++);
+    System.out.print(a);
+} 
+Options
+20
+22 
+17
+18
+
+Correct Answer
+22
+Solution Description
+a=a+5+(++a)+(a++).  
+=5+5+6+6=22
