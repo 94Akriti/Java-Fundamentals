@@ -300,4 +300,23 @@ a=10+11-1+66=86.
 
 
 -------------------------------------------------------------------------------------------------------------------
-<13> 
+<13> For Loop
+Send Feedback
+How many times will the following loop run?
+for(int i=1;i<10;i*=2)
+{
+     System.out.println(i);
+} 
+Options
+4 
+3
+10
+infinite
+Correct Answer
+4
+Solution Description
+The loop would run for i=1,2,4,8.
+
+
+-------------------------------------------------------------------------------------------------------------------
+<14> 
