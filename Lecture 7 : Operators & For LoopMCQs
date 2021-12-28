@@ -111,7 +111,7 @@ Correct Answer
 
 -------------------------------------------------------------------------------------------------------------------
 <5>Bitwise Operator
-Send Feedback
+
 What will be the output ?
 public static void main(String args[])
    {
@@ -156,7 +156,7 @@ So, pointer shifts to else that prints incremented value of y by 1 i.e. 2
 
 -------------------------------------------------------------------------------------------------------------------
 <7> Guess the output
-Send Feedback
+
 class Solution {
     public static void main(String args[]) 
     {   
@@ -202,7 +202,7 @@ print: g + 1 * 8 = 4 * 8 = 32
 
 -------------------------------------------------------------------------------------------------------------------
 <9>Guess the output
-Send Feedback
+
 class Solution {
     public static void main(String args[]) 
     {
@@ -230,7 +230,7 @@ if loop falis because it takes x=19 and post increments so x=11 and y stays same
 
 -------------------------------------------------------------------------------------------------------------------
 <10>Guess the output
-Send Feedback
+
 class Solution {
     public static void main(String args[]) 
     {
@@ -257,9 +257,8 @@ If for x fails but "||" for y passes so, incide if prints then x =11 and y = 21
 
 
 -------------------------------------------------------------------------------------------------------------------
-<11> Correct Output
-Send Feedback
-Select the correct output for the following code:
+<11> Select the correct output for the following code:
+
 public static void main (String[] args) {
     int a=5;
     a+=5+(++a)+(a++);
@@ -280,8 +279,8 @@ a=a+5+(++a)+(a++).
 
 -------------------------------------------------------------------------------------------------------------------
 <12> Guess the Output
-Send Feedback
-public static void main (String[] args) {
+
+public static void main (String] args) {
     int a=10;
     a+=++a-5/3+6*a;
     System.out.print(a);
@@ -301,7 +300,7 @@ a=10+11-1+66=86.
 
 -------------------------------------------------------------------------------------------------------------------
 <13> For Loop
-Send Feedback
+
 How many times will the following loop run?
 for(int i=1;i<10;i*=2)
 {
@@ -319,4 +318,24 @@ The loop would run for i=1,2,4,8.
 
 
 -------------------------------------------------------------------------------------------------------------------
-<14> 
+<14> Which value(s) can be used to initialize i so that the loop is finite:
+public static void main (String[] args) {
+    for(int i=_;i>0;i=i%3)
+    {
+        System.out.print("*");
+    }
+}
+Options
+1000
+729 
+386
+483 
+Correct Answer
+729
+483
+Solution Description
+The value which is divisible by 3 would result in finite loop.
+
+--------------------------------------------------------------------------------------------------------
+<15> 
+
