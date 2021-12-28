@@ -337,5 +337,229 @@ Solution Description
 The value which is divisible by 3 would result in finite loop.
 
 --------------------------------------------------------------------------------------------------------
-<15> 
+<15> What will be the output the following code?
 
+for(int i = 0; i < 5; i = i + 1){
+    System.out.print(i + " ");
+    i = i + 1;
+}
+Options
+0 1 2 3 4
+0 2 4 
+1 3
+1 2 3 4 5
+
+Correct Answer
+0 2
+
+--------------------------------------------------------------------------------------------------------
+<16>What will be the output the following code?
+
+for(int i = 1; i < 5; i = i + 1){
+    System.out.print(i +" ");
+    i = i - 1;
+}
+Options
+1 2 3 4
+Infinite 1s 
+Compilation error
+None of these
+
+Correct Answer
+Infinte 1s
+
+--------------------------------------------------------------------------------------------------------
+<17> What will be the output ?
+for(int i = 0; i < 2; i = i + 1) {
+     for(int j = 0; j < 2; j = j + 1) {
+          if (j == 1)
+              break;
+          System.out.print(j +" ");
+      }
+ } 
+Options
+0 1 0 1
+0 0 0 0
+0 0 
+0 1
+Correct Answer
+0 0
+
+--------------------------------------------------------------------------------------------------------
+<18> Guess the output for the following code:
+public static void main (String[] args) {
+    int i=0;
+    for(;;)
+    {
+        if(i==5)
+            break;
+        System.out.print(i);
+        i++;
+    }
+}
+Options
+012345
+infinite loop
+01234 
+compilation error
+
+Correct Answer
+01234
+Solution Description
+The loop would execute for i=0,1,2,3,4
+
+--------------------------------------------------------------------------------------------------------
+<19> Select the correct output for the following code:
+public static void main (String[] args) {
+    for(int i=7;i!=0;i--)
+    {
+        System.out.print(i--);
+    }
+}
+Options
+7531
+642
+infinite loop 
+753
+Correct Answer
+infinte loop
+
+--------------------------------------------------------------------------------------------------------
+<20> Find the error
+
+Which code snippet would generate an error?
+1.
+for(int i=1;;i++)
+    {   if(i==5)
+            break;
+        System.out.print(i);
+    }
+2.
+for(int i=1;;i++)
+    {   if(i<5)
+            System.out.print(i);
+        else 
+            break;
+    }
+3.
+for(int i=1;;i++)
+    {   if(i>5)
+        {
+            break;
+            System.out.print("break statement reached");
+        }
+        System.out.print(i);
+    }
+Options
+1.
+2.
+3. 
+None of them
+
+Correct Answer
+3.
+Solution Description
+In code snippet 3. the statement after break is never executed hence it gives an error.
+
+--------------------------------------------------------------------------------------------------------
+<21> Skip iteration
+Send Feedback
+Which of these jump statements can skip processing remainder of code in its body for a particular iteration ?
+Options
+break
+return
+continue 
+Correct Answer
+Solution Description
+####"break" is used to exit from the current loop.
+####"return" statement is used to exit from the current function.
+####"continue" is used to skip the current iteration of a loop and continue with the next iteration.
+
+--------------------------------------------------------------------------------------------------------
+<22> What is the output
+
+int i = 1;
+while(i < 5) {
+    if(i == 3) {
+        break;
+    }
+    System.out.print(i + " ");
+    i++;
+}
+Options
+1 2 3 4
+1 2 
+1 2 4
+[No output, just an infinite loop]
+Correct Answer
+1 2
+
+--------------------------------------------------------------------------------------------------------
+<23> What is the output
+
+int i = 1;
+while(i < 5) {
+    if(i == 3) {
+        continue;
+    }
+    System.out.print(i + " ");
+    i++;
+}
+Options
+1 2 3 4
+1 2 [Without infinite loop]
+1 2 4
+1 2 [With infinite loop] 
+
+Correct Answer
+1 2 [With infinite loop]
+
+--------------------------------------------------------------------------------------------------------
+<24> What is the output
+Send Feedback
+int i = 1;
+while(i < 3) {
+    int j = 1;
+    while(j < 5) {
+        if(j == 3) {
+            break;
+        }
+        System.out.print(j + " ");
+        j++;
+    }
+    i++;
+}
+Options
+1 2 1 2 
+1 2
+1 2 4 1 2 4
+Infinite loop
+
+Correct Answer
+1 2 1 2
+
+--------------------------------------------------------------------------------------------------------
+<25> What is the output
+
+int i = 1;
+while(i < 3) {
+    int j = 0;
+    while(j < 5) {
+        j++;
+        if(j == 3) {
+            continue;
+        }
+        System.out.print(j + " ");
+    }
+    i++;
+}
+Options
+1 2 1 2
+1 2 3 4 1 2 3 4
+1 2 4 5 1 2 4 5 
+1 2 4 1 2 4
+
+Correct Answer
+1 2 4 5 1 2 4 5
+________________________________________________________              ___________________________________
+________________________________________________________T H E  - E N D___________________________________
